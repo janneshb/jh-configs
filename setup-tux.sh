@@ -3,15 +3,17 @@
 sudo apt update
 sudo apt upgrade
 
+echo "emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'" | sudo tee -a /etc/zsh/zprofile
+
 # install desktop apps
 sudo apt install snapd
 sudo snap install code --classic
-sudo snap install slack --classic
 sudo snap install spotify --classic
-sudo snap install alacritty --classic
+sudo apt install terminator
 sudo snap install 1password --classic
 
-stow alacritty
+sudo snap install slack
+sudo snap install signal-desktop
 
 # install rust
 curl https://sh.rustup.rs -sSf | sh

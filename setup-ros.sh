@@ -71,10 +71,8 @@ rosdep update
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
 
 echo "# ROS 2 Humble Hawksbill" >> ~/.zshrc
-echo ". ~/ros2_humble/install/local_setup.zsh" >> ~/.zshrc
 echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
 echo "# ROS 2 Humble Hawksbill" >> ~/.bashrc
-echo ". ~/ros2_humble/install/local_setup.bash" >> ~/.bashrc
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 echo

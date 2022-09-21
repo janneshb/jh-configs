@@ -60,3 +60,5 @@
 [user]
 	email = j.huehnerbein@icloud.com
 	name = Jannes Huehnerbein
+[init]
+	defaultBranch = main
