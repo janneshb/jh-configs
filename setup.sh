@@ -100,3 +100,4 @@ chsh -s $(which zsh)
 echo
 echo Done!
 echo Reboot to see changes in effect.
+
