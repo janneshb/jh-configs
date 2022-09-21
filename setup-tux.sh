@@ -9,6 +9,7 @@ sudo snap install code --classic
 sudo snap install slack --classic
 sudo snap install spotify --classic
 sudo snap install alacritty --classic
+sudo snap install 1password --classic
 
 stow alacritty
 

@@ -1,3 +1,4 @@
-./setup.sh
-./ssh-setup.sh
-./tux-setup.sh
+./setup-general.sh
+./setup-ssh.sh
+./setup-ros.sh
+./setup-tux.sh
