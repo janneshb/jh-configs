@@ -70,10 +70,10 @@ export ROS_OS_OVERRIDE=ubuntu
 rosdep update
 rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers"
 
-echo "# ROS 2 Humble Hawksbill" >> ~/.zshrc
-echo "source /opt/ros/humble/setup.zsh" >> ~/.zshrc
-echo "# ROS 2 Humble Hawksbill" >> ~/.bashrc
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "# ROS 2 Humble Hawksbill" >> ~/.ros_setup_zsh
+echo "source /opt/ros/humble/setup.zsh" >> ~/.ros_setup_zsh
+# echo "# ROS 2 Humble Hawksbill" >> ~/.bashrc
+# echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 echo
 echo ROS 2 Humble Hawksbill Installation DONE!

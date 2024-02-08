@@ -219,4 +219,7 @@ if [ -f zshrc-extra.zsh ]; then source zshrc-extra.zsh; fi
 #eval "$(register-python-argcomplete3 colcon)"
 
 # ROS 2 Humble Hawksbill
-source /opt/ros/humble/setup.zsh
+FILE=~/.ros_setup && test -f $FILE && source $FILE
+
+# aliases
+source ~/.zsh_aliases

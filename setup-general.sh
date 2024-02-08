@@ -33,6 +33,8 @@ sudo apt install -y \
 # git config
 #
 stow git
+rm ~/.gitconfig
+cp git/.gitconfig ~/
 git config --global init.defaultBranch main
 
 # tmux config
